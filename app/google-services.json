@@ -1,0 +1,63 @@
+{
+  "project_info": {
+    "project_number": "395496758803",
+    "firebase_url": "https://yeheunfinal-default-rtdb.firebaseio.com",
+    "project_id": "yeheunfinal",
+    "storage_bucket": "yeheunfinal.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:395496758803:android:6316fa5164273cc39169e6",
+        "android_client_info": {
+          "package_name": "com.beta.yeheun"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "395496758803-3hih5jrs7u2dvro6hpliu13h2if8squf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.beta.yeheun",
+            "certificate_hash": "cf21daabbf198104a0f38abd6895a2f84d5e5a49"
+          }
+        },
+        {
+          "client_id": "395496758803-abbduqvr51oqmc570ck3bf6hloopp1um.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.beta.yeheun",
+            "certificate_hash": "8abbd0a6401d0b263751f1c347ef45c83ddbfe1f"
+          }
+        },
+        {
+          "client_id": "395496758803-9k12u27aemoh55r15ngbp0ejoa4itj6e.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDE8dWQF-W4A2NdXar9VSMLJRtBvAKo4G4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "395496758803-9k12u27aemoh55r15ngbp0ejoa4itj6e.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "395496758803-petccfsts423bd06skvkbl239lhi852k.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "yeheun.themarks"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

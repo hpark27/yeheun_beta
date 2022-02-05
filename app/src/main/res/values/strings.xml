@@ -1,0 +1,135 @@
+<resources>
+    <string name="app_name">예흔 공동체</string>
+    <string name="description">description</string>
+
+    <!-- App package -->
+    <string name="app_open">사용할 앱 선택</string>
+    <string name="youtube_package">com.google.android.youtube</string>
+    <string name="instagram_package">com.instagram.android</string>
+    <string name="googlemap_package">com.google.android.apps.maps</string>
+    <string name="venmo_package">com.venmo</string>
+    <string name="android_vending_package" translatable="false">com.android.vending</string>
+    <string name="venmo_url">https://play.google.com/store/apps/details?id=com.venmo</string>
+
+    <!-- Website address -->
+    <string name="lolmc_youtube">https://www.youtube.com/channel/UCp2jghiPhBoCMqevRyUyOUQ</string>
+    <string name="lolmc_instagram">https://www.instagram.com/lolmc_themarks/</string>
+    <string name="lolmc_googlemap">https://www.google.com/maps/place/%EC%82%AC%EB%9E%91%EC%9D%98%EB%B9%9B%EC%84%A0%EA%B5%90%EA%B5%90%ED%9A%8C+(%EB%8B%B4%EC%9E%84%EB%AA%A9%EC%82%AC+%EC%9C%A4%EB%8C%80%ED%98%81)/@34.1463125,-118.092836,15z/data=!4m5!3m4!1s0x0:0x70eabc22c0a95116!8m2!3d34.1463158!4d-118.0928361</string>
+
+    <!-- Global Variable -->
+    <string name="lolmc">사랑의 빛 선교교회</string>
+    <string name="title">예흔 공동체</string>
+    <string name="default_web_client_id_">395496758803-3hih5jrs7u2dvro6hpliu13h2if8squf.apps.googleusercontent.com</string>
+    <string name="maps_api_key" templateMergeStrategy="preserve" translatable="false">AIzaSyBWK0nrMmLamsTUT40HvRPMxT1rt6lIf24</string>
+    <string name="message_title" translatable="false">예흔 알림</string>
+
+    <!-- FCM Push Alarm -->
+    <string name="fcm_success">✔</string>
+    <string name="fcm_error">예상하지 못한 오류가 발생했습니다.\n나중에 다시 시도해주세요</string>
+    <string name="CHANNEL_ID" translatable="false">com.themarks.android.channel</string>
+    <string name="channel_title" translatable="false">yeheunChannel</string>
+
+    <!-- Permission -->
+    <string name="permission_grant">접근 권한이 허용되었습니다</string>
+    <string name="permission_request">접근 권한을 허용해주세요</string>
+    <string name="permission_setting">[설정] > [권한]에서 권한을 허용할 수 있어요</string>
+
+    <!-- Login Activity -->
+    <string name="login_title">하나님을 외롭지 않게\n사람을 외롭지 않게 하는 공동체</string>
+    <string name="login_content">예배와 찬양, 나눔과 섬김의 자리에\n여러분을 초대합니다.</string>
+    <string name="login_signin">로그인</string>
+    <string name="login_signin_fail">로그인에 실패하였습니다\n다시 시도해 주세요</string>
+    <string name="login_signin_google">구글 계정에 먼저 로그인 해 주세요</string>
+    <string name="login_direction">찾아오시는 길</string>
+
+    <!-- Main Activity -->
+    <string name="main_indicator_index_start">1</string>
+    <string name="main_indicator_index_middle">/</string>
+    <string name="main_indicator_index_end">5</string>
+    <string name="main_worship">예배</string>
+    <string name="main_bulletin">주보</string>
+    <string name="main_register">신청서</string>
+    <string name="main_offering">헌금 안내</string>
+    <string name="main_sns">SNS</string>
+    <string name="main_youtube">Youtube</string>
+    <string name="main_instagram">Instagram</string>
+    <string name="main_goods">예흔 굿즈</string>
+    <string name="main_announce">공지사항</string>
+    <string name="main_announce_more">더보기</string>
+    <string name="main_join">참여하기</string>
+    <string name="main_announce_none">등록된 공지사항이 없습니다</string>
+    <string name="main_bulletin_fail">예상하지 못한 오류가 발생했습니다\n잠시 후 다시 시도해주세요</string>
+    <string name="main_bulletin_empy">현재 이용가능한 주보가 없습니다\n잠시 후 다시 시도해주세요</string>
+    <string name="main_googleform_fail">예상하지 못한 오류가 발생했습니다\n잠시 후 다시 시도해주세요</string>
+    <string name="main_googleform_empy">현재 이용가능한 신청서가 없습니다\n잠시 후 다시 시도해주세요</string>
+    <string name="main_dialog">OK</string>
+
+    <!-- Offering Activity -->
+    <string name="offering">온라인 헌금 Venmo 안내</string>
+    <string name="offering_qr">QR 코드</string>
+    <string name="offering_content">반드시 Venmo 내용에 "이름"과 "헌금"이라고 적어주세요</string>
+    <string name="offering_id">Venmo ID</string>
+    <string name="offering_link">Venmo 다운로드</string>
+    <string name="offering_noid">지금은 이용할 수 없습니다</string>
+    <string name="offering_noqr">현재 이용가능한 QR 코드가 없습니다</string>
+    <string name="offering_expand">펼치기</string>
+    <string name="offering_collapse">접기</string>
+
+    <!-- Sub Login Activity -->
+    <string name="login">로그인</string>
+    <string name="login_password">비밀번호</string>
+    <string name="login_password_empty">비밀번호를 입력하세요</string>
+    <string name="login_password_error">비밀번호가 맞지 않습니다.\n다시 시도주세요</string>
+
+    <!-- Upload Activity -->
+    <string name="upload_upload">Upload</string>
+    <string name="upload_edit">Edit</string>
+    <string name="upload_url">URL / 공지사항</string>
+    <string name="upload_post">헌금 안내 / 예흔굿즈</string>
+
+    <!-- UrlUpload Activity -->
+    <string name="urlupload_bulletin">주보 URL</string>
+    <string name="urlupload_googleform">신청서 URL</string>
+    <string name="urlupload_main_notice">메인 공지</string>
+    <string name="upload">업로드</string>
+    <string name="urlupload_empty">링크를 입력해주세요</string>
+    <string name="uploaded">업로드가 완료되었습니다</string>
+    <string name="upload_title">제목을 입력해주세요</string>
+    <string name="upload_content">내용을 입력해주세요</string>
+
+    <!-- PostingUpload Activity -->
+    <string name="postingupload_offering">Venmo ID를 입력해주세요</string>
+    <string name="goodsupload_name">상품명을 입력해주세요</string>
+    <string name="goodsupload_price">가격을 입력해주세요</string>
+    <string name="goodsupload_image">이미지를 선택해주세요</string>
+    
+    <!-- Edit Activity -->
+    <string name="edit_url">URL 삭제</string>
+    <string name="edit_announce">공지사항 삭제</string>
+
+    <!-- PostingEdit Activity -->
+    <string name="postingedit_venmo">Venmo</string>
+    <string name="postingedit_offering">Venmo 정보 삭제</string>
+    <string name="postingedit_goods">예흔굿즈 정보 삭제</string>
+
+    <!-- UrlEdit Activity -->
+    <string name="deleted">파일이 삭제되었습니다</string>
+
+    <!-- Goods View -->
+    <string name="goods_title">굿즈</string>
+    <string name="goods_name">품명</string>
+    <string name="goods_price">가격</string>
+    <string name="goods_quantity">수량</string>
+    <string name="goods_quantity2">수량</string>
+
+    <!-- Notice View -->
+    <string name="notice_title">공지사항</string>
+    <string name="notice_content">내용</string>
+    <string name="notice_date">날짜</string>
+
+    <!-- Navigation -->
+    <string name="menu_access">Access Restricted</string>
+    <string name="menu_edit">Edit</string>
+    <string name="menu_upload">Upload</string>
+    <string name="menu_logout">Logout</string>
+</resources>

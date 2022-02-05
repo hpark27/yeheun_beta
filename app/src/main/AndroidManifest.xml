@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.beta.yeheun">
+
+    <!-- internet -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <!-- read external storage -->
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <!-- write external storage -->
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        android:maxSdkVersion="28"
+        tools:ignore="ScopedStorage" />
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="true"
+        android:requestLegacyExternalStorage="true"
+        android:icon="@mipmap/ic_icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_icon_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Yeheun">
+
+        <!-- Set custom default icon -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@drawable/themarks" />
+
+        <!-- Set color used with incoming notification messages -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/themarks" />
+
+        <activity
+            android:exported="true"
+            android:name=".SplashActivity"
+            android:theme="@style/SplashTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/LoginTheme"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/LoginTheme"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".OfferingActivity"
+            android:theme="@style/LoginTheme"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".SubLoginActivity"
+            android:theme="@style/LoginTheme"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".UploadActivity"
+            android:theme="@style/LoginTheme"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".UrlUploadActivity"
+            android:theme="@style/LoginTheme"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".PostingUploadActivity"
+            android:theme="@style/LoginTheme"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".UrlEditActivity"
+            android:theme="@style/LoginTheme"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".PostingEditActivity"
+            android:theme="@style/LoginTheme"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".NoticeViewActivity"
+            android:theme="@style/LoginTheme"
+            android:screenOrientation="portrait" />
+
+        <activity
+            android:name=".GoodsViewActivity"
+            android:theme="@style/LoginTheme"
+            android:screenOrientation="portrait" />
+    </application>
+</manifest>
